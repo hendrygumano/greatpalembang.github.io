@@ -1,0 +1,13 @@
+var json_Terminal_43 = {
+"type": "FeatureCollection",
+"name": "Terminal_43",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nama": "Terminal Tipe A Karya Jaya", "Alamat": "Jl. Sriwijaya Raya No.KM.14, Karya Jaya, Kec. Kertapati, Kota Palembang, Sumatera Selatan", "Jenis": "Terminal", "Lokasi": "https://www.google.com/maps/dir//-3.0636851,104.7389862/@-3.0651636,104.7325915,15.25z/data=!5m1!1e1?entry=ttu" }, "geometry": { "type": "Point", "coordinates": [ 104.739899241336914, -3.064354694857788 ] } },
+{ "type": "Feature", "properties": { "Nama": "Terminal Tipe B Jakabaring", "Alamat": "Ps. Induk Jakabaring, Jl. Pangeran Ratu Blok B8, 15 Ulu, Kecamatan Seberang Ulu I, Kota Palembang, Sumatera Selatan", "Jenis": "Terminal", "Lokasi": "https://www.google.com/maps/dir//-3.0268266,104.7759146/@-3.0278463,104.7700046,15.31z/data=!5m1!1e1?entry=ttu" }, "geometry": { "type": "Point", "coordinates": [ 104.776037184812566, -3.026667304627661 ] } },
+{ "type": "Feature", "properties": { "Nama": "Terminal Tipe B Pasar Plaju", "Alamat": "Jl. Kapten Abdullah, Plaju Ilir, Kec. Plaju, Kota Palembang, Sumatera Selatan", "Jenis": "Terminal", "Lokasi": "https://www.google.com/maps/dir//-2.99737,104.81591/@-2.9939396,104.8087805,15.25z/data=!5m1!1e1?entry=ttu" }, "geometry": { "type": "Point", "coordinates": [ 104.815903821335596, -2.997365770530304 ] } },
+{ "type": "Feature", "properties": { "Nama": "Terminal Tipe C Sako", "Alamat": "Jl. Siaran No.3, Sialang, Kec. Sako, Kota Palembang, Sumatera Selatan", "Jenis": "Terminal", "Lokasi": "https://www.google.com/maps/dir//-2.931022,104.7904264/@-2.9280546,104.7849408,15.17z/data=!5m1!1e1?entry=ttu" }, "geometry": { "type": "Point", "coordinates": [ 104.790491059199525, -2.931312551035218 ] } },
+{ "type": "Feature", "properties": { "Nama": "Terminal Tipe A Alang-Alang Lebar", "Alamat": "Jl. Bypass Alang-Alang Lebar, Alang Alang Lebar, Kec. Alang-Alang Lebar, Kota Palembang, Sumatera Selatan", "Jenis": "Terminal", "Lokasi": "https://www.google.com/maps/dir//-2.9169477,104.6815569/@-2.9180876,104.6751754,15.1z/data=!5m1!1e1?entry=ttu" }, "geometry": { "type": "Point", "coordinates": [ 104.681343474176998, -2.91664773997161 ] } },
+{ "type": "Feature", "properties": { "Nama": "Terminal Tanjung Buntung", "Alamat": "Jl. Pangeran Sido Ing Lautan, 36 Ilir, Kec. Gandus, Kota Palembang, Sumatera Selatan 30147", "Jenis": "Terminal", "Lokasi": "https://www.google.com/maps/dir//-3.0134706,104.7462293/@-3.0166936,104.7413107,15.25z/data=!5m1!1e1?entry=ttu" }, "geometry": { "type": "Point", "coordinates": [ 104.746264621889964, -3.013457237628202 ] } }
+]
+}

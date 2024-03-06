@@ -1,0 +1,195 @@
+
+    .radio-group {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+
+    .radio-group label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .date-time-group {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+
+    @media (max-width: 600px) {
+      /* Misalnya, untuk gadget dengan lebar maksimum 600px */
+      input[type="waktu"] {
+        font-size: 12px; /* Atur ukuran tulisan sesuai keinginan untuk gadget kecil */
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    /* Gaya CSS untuk form */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+      background-image: url(https://rics.scene7.com/is/content/rics/BA_UK_Modus_Blue_Final_1600x900?$article-big-img-desktop$&qlt=85,1);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .box {
+      /* Set the width and height of the box as per your preference */
+      width: auto;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin-bottom: 10px;
+    }
+
+    .location-section {
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      /* background-color: #03a9f43b; */
+      padding: 10px;
+      margin-bottom: 20px;
+      background: linear-gradient(to top right, #c0c654fc, #d3c31a);
+    }
+
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: transparent;
+      backdrop-filter: blur(20px);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+      font-size: small;
+    }
+
+    label {
+      display: block;
+      font-weight: ;
+      margin-bottom: 2px;
+      color: #000000;
+      font-size: medium;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      padding: 0.5rem;
+      border: 2px solid gray;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+
+    form input[type="waktu"] {
+      width: auto;
+      padding: 0.5rem;
+      border: 2px solid gray;
+      border-radius: 0.5rem;
+      font-size: 0.80rem;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    input[type="radio"] {
+      transform: scale(1.5);
+      /* Sesuaikan nilai skala sesuai keinginan Anda */
+      margin-right: 5px;
+      /* Atur jarak antara pilihan radio dengan teks */
+    }
+
+
+
+    .entry-section {
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      /* background-color: #03a9f43b; */
+      padding: 10px;
+      margin-bottom: 10px;
+      background: linear-gradient(to top right, #84caae, #3c8966);
+    }
+
+    .waktu-section {
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      /* background-color: #cddc3966; */
+      padding: 10px;
+      margin-bottom: 15px;
+      background: linear-gradient(to top right, #cd6e6e, #d64038ea);
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+
+
+    .opini {
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      /* background-color: #03a9f43b; */
+      padding: 10px;
+      margin-bottom: 20px;
+      background: linear-gradient(to top right, #efefefd0, #bdbbbbea);
+    }
+
+    button[type="button"] {
+      display: block;
+      width: auto;
+      margin-top: 5px;
+      padding: 10px;
+      border: none;
+      background-color: #073c7c;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="button"]:hover {
+      background-color: #0069d9;
+    }
+
+
+    button[type="submit"] {
+      background-color: #073c7c;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      ;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0069d9;
+    }
+
+
+    #map {
+      height: 300px;
+      width: 100%;
+      margin-bottom: 20px;
+      display: none;
+      /* Hide the map element by default */
+    }
+
+    /* Style the accuracy control */
+    .accuracy-control {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 5px;
+      border-radius: 10%;
+    }
